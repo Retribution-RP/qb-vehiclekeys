@@ -3,7 +3,7 @@ Config = {}
 -- NPC Vehicle Lock States
 Config.LockNPCDrivingCars = true -- Lock state for NPC cars being driven by NPCs [true = locked, false = unlocked]
 Config.LockNPCParkedCars = true -- Lock state for NPC parked cars [true = locked, false = unlocked]
-Config.UseKeyfob = false -- you can set this true if you dont need ui
+Config.UseKeyfob = true -- you can set this true if you dont need ui
 -- Lockpick Settings
 Config.RemoveLockpickNormal = 0.5 -- Chance to remove lockpick on fail
 Config.RemoveLockpickAdvanced = 0.2 -- Chance to remove advanced lockpick on fail
@@ -31,8 +31,8 @@ Config.CarjackChance = {
 -- Hotwire Settings
 Config.HotwireChance = 0.5 -- Chance for successful hotwire or not
 Config.TimeBetweenHotwires = 5000 -- Time in ms between hotwire attempts
-Config.minHotwireTime = 20000 -- Minimum hotwire time in ms
-Config.maxHotwireTime = 40000 --  Maximum hotwire time in ms
+Config.minHotwireTime = 40000 -- Minimum hotwire time in ms
+Config.maxHotwireTime = 80000 --  Maximum hotwire time in ms
 
 -- Police Alert Settings
 Config.AlertCooldown = 10000 -- 10 seconds
